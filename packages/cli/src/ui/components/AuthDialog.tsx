@@ -77,6 +77,7 @@ export function AuthDialog({
       value: AuthType.USE_GEMINI,
     },
     { label: 'Vertex AI', value: AuthType.USE_VERTEX_AI },
+    { label: 'OpenRouter', value: AuthType.USE_OPENROUTER },
   ];
 
   const initialAuthIndex = items.findIndex((item) => {

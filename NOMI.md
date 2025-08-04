@@ -1,0 +1,3 @@
+OPENROUTER_API_KEY=xxxxxxxxxx
+OPENROUTER_BASE_URL=xxxxxxxxxx
+OPENROUTER_MODEL=xxxxxxxxxx

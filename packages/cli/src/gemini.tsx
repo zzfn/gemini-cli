@@ -187,6 +187,14 @@ export async function main() {
     }
   }
 
+  if (process.env.OPENROUTER_API_KEY && settings.merged.selectedAuthType === 'openrouter') {
+    settings.setValue(
+      SettingScope.User,
+      'selectedAuthType',
+      AuthType.USE_OPENROUTER,
+    );
+  }
+
   setMaxSizedBoxDebugging(config.getDebugMode());
 
   await config.initialize();
